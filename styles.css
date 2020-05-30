@@ -1,0 +1,362 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #00afef;
+    text-decoration: none;
+    max-width: 88%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 1px 2px 15px rgba(255, 255, 255, 0.2);
+}
+
+.fa {
+    color: white;
+    font-size: 12px;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+}
+
+.h2,
+h2 {
+    font-size: 24px !important;
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.h3,
+h3 {
+    font-size: 15px !important;
+    color: white !important;
+    font-weight: 300 !important;
+}
+
+h5 {
+    font-size: 1.80rem !important;
+    text-align: center !important;
+    margin: auto;
+    color: white;
+}
+
+.logo_bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 45%;
+}
+
+.logo {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 35%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 5%;
+    align-items: center;
+}
+
+.col-centered {
+    text-align: center;
+    display: inline-block;
+}
+
+.bank p {
+    font-size: 9px;
+    text-align: left;
+    margin-top: 5px;
+    color: white;
+}
+
+.SparshContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -40px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+}
+
+a:not([href]) {
+    color: white !important;
+}
+
+.UserPhoto {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: white;
+    margin-top: 35px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.6px;
+    margin-left: 20px;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+
+.socialLink {
+    color: white;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.buttonShare {
+    color: #dfddde;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: -3px;
+}
+
+.buttonShareCSS {
+    border: solid 2px #dfddde;
+    padding: 12px 15px;
+    font-size: 20px;
+    color: #dfddde;
+    margin: 10px;
+    width: 130px;
+}
+
+.copyrightcontainer {
+    height: 20px;
+    background-color: #03a8dd;
+    min-width: 100%;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+.copyrights {
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+.FooterBranding {
+    height: 80px;
+    background-image: url(img/coverbg.png);
+    width: 100%;
+}
+
+.GolIcon {
+    color: white;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.Jagya5 {
+    padding-top: 5px;
+}
+
+.Jagya10 {
+    padding-top: 10px;
+}
+
+.Jagya15 {
+    padding-top: 15px;
+}
+
+.Jagya20 {
+    padding-top: 20px;
+}
+
+.Jagya30 {
+    padding-top: 30px;
+}
+
+.Jagya40 {
+    padding-top: 40px;
+}
+
+.Jagya50 {
+    padding-top: 50px;
+}
+
+.Jagya60 {
+    padding-top: 60px;
+}
+
+.container {
+    width: 100%;
+}
+
+.CTAcontainer {
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.CTAdabuicon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    line-height: 38px;
+    color: white;
+    background-color: #00c1ea;
+    font-size: 20px;
+}
+
+.CTAjamnuTEXT {
+    color: #dfddde;
+    margin-left: 10px;
+    font-size: 19px;
+    margin-right: 10px;
+}
+
+.CTAjamnuTEXTaddress {
+    display: block;
+    color: #dfddde;
+    font-size: 18px;
+    margin-right: 10px;
+    line-height: 1.4;
+    padding-left: 7px;
+    margin-top: -18px;
+}
+
+.INLINEBlock {
+    display: inline-block;
+    float: left;
+}
+
+.floatBottomRightBttn {
+    position: fixed;
+    bottom: 0;
+    width: 80px;
+    height: 30px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e2927c;
+    color: #fff;
+    border-radius: 50px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    box-shadow: 1px 2px 10px rgba(107, 128, 168, 0.2);
+}
+
+
+/*share*/
+
+.modal-content {
+    position: relative;
+    background-color: #000000 !important;
+}
+
+.modal-header {
+    background: red;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    /* margin: auto; */
+    margin-top: 50%;
+    color: white;
+    font-size: 16px;
+}
+
+.modal-title {
+    margin: auto !important;
+}
+
+.modal-body h1 {
+    font-size: 1.4em;
+    text-align: center;
+    background: #0a0000;
+    padding: 10px;
+    color: white;
+}
+
+.modal-body {
+    padding: 16px;
+    text-align: center;
+    background-color: #000000e3;
+}
+
+#shareform .modal-body .fa {
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 15px 5px 0;
+    color: #fff;
+    box-shadow: 2px 2px 0px #000000a1;
+    transition: 0.5s;
+}
+
+.modal-body .fa:hover {
+    opacity: 0.6;
+}
+
+#instant_share .modal-body .fa {
+    font-size: 1.8em;
+    padding: 3px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.fade {
+    opacity: 1 !important;
+}
+
+.modal-footer {
+    margin-top: 15px;
+    padding-top: 10px;
+    background-color: #000000e3;
+}
+
+
+/*share*/
+
+
+/*=====================
+    Front Images
+    */
+
+.col-sm-7 img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+.col-sm-5 img {
+    height: 80px;
+    margin: 11%;
+}
+
+@media (min-width: 576px) {}

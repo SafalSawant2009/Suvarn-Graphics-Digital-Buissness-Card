@@ -1,0 +1,407 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    color: #555555;
+    text-decoration: none;
+    max-width: 450px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 1px 2px 15px rgba(255, 255, 255, 0.2);
+}
+
+.SparshContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.UserPhoto {
+    width: 110px;
+    height: auto;
+    border-radius: 110px;
+    border: 4px solid white;
+    background-color: white;
+    margin-top: 35px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.6px;
+    margin-left: 20px;
+    margin-top: 14px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.ShareContainer img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6%;
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
+.socialLink {
+    color: white;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.TwobuttonShare {
+    color: #dfddde;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: -2;
+}
+
+.TwobuttonShareCSS {
+    padding: 12px 25px;
+    font-size: 15px;
+    color: #dfddde;
+    margin: 7px;
+    background: rgba(72, 72, 72, 0.55);
+    width: 130px;
+    border-bottom: 6px solid #37393a;
+}
+
+.copyrightcontainer {
+    height: 25px;
+    background-color: #bf0012;
+    min-width: 100%;
+    margin-top: 5%;
+    padding-bottom: 7px;
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.copyrights {
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+.FooterBranding {
+    height: 80px;
+    background-image: url(images/coverbg.png);
+    width: 100%;
+}
+
+.GolIcon {
+    color: white;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.Jagya5 {
+    padding-top: 5px;
+}
+
+.Jagya10 {
+    padding-top: 10px;
+}
+
+.Jagya15 {
+    padding-top: 15px;
+}
+
+.Jagya20 {
+    padding-top: 20px;
+}
+
+.Jagya30 {
+    padding-top: 30px;
+}
+
+.Jagya40 {
+    padding-top: 40px;
+}
+
+.Jagya50 {
+    padding-top: 50px;
+}
+
+.Jagya60 {
+    padding-top: 60px;
+}
+
+.CTAcontainer {
+    text-align: center;
+    margin: auto;
+}
+
+.CTAdabuicon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 14px;
+    line-height: 16px;
+    color: black;
+    background-color: white;
+    font-size: 9px;
+    margin-bottom: 0px;
+}
+
+.CTAjamnuTEXT {
+    color: #dfddde;
+    margin-left: 3px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.CTAjamnuTEXTaddress {
+    display: block;
+    color: #444444;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.INLINEBlock {
+    display: inline-block;
+    float: left;
+}
+
+.floatBottomRightBttn {
+    position: fixed;
+    bottom: 0;
+    width: 80px;
+    height: 30px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e2927c;
+    color: #fff;
+    border-radius: 50px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    box-shadow: 1px 2px 10px rgba(107, 128, 168, 0.2);
+}
+
+.about_us {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 5%;
+    font-size: 13px;
+}
+
+.panel-title {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.panel-body {
+    text-align: center;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.49);
+}
+
+#ceo-img {
+    border-radius: 200px;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #000000;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn i {
+    line-height: 50px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+
+.btn:hover i {
+    transform: scale(1.3);
+    color: #000000;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 50%;
+}
+
+.btn:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa {
+    0% {
+        left: -110%;
+        top: 90%;
+    }
+    50% {
+        left: 10%;
+        top: -30%;
+    }
+    100% {
+        top: -10%;
+        left: -10%;
+    }
+}
+
+#real-logo {
+    width: 50%;
+    margin-top: 18px;
+}
+
+#map-marker {
+    font-size: 30px;
+}
+
+ :root {
+    --bg-color: #031321;
+    --primary-color: #0a95cc;
+    --secondary-color: #ffffff;
+}
+
+.btn-neon {
+    position: relative;
+    display: block;
+    padding: 10px 30px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btn-neon:hover {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    box-shadow: 0 0 20px var(--primary-color), 0 0 80px var(--primary-color), 0 0 160px var(--primary-color), 0 0 320px var(--primary-color);
+    transition-delay: 1s;
+}
+
+.btn-neon span {
+    position: absolute;
+    display: block;
+}
+
+.btn-neon span:nth-child(1) {
+    top: 0;
+    transform: translateX(-115%);
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, var(--primary-color));
+}
+
+.btn-neon:hover span:nth-child(1) {
+    transform: translateX(100%);
+    transition: 1s;
+}
+
+.btn-neon span:nth-child(3) {
+    bottom: 0;
+    transform: translateX(100%);
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg, transparent, var(--primary-color));
+}
+
+.btn-neon:hover span:nth-child(3) {
+    transform: translateX(-115%);
+    transition: 1s 0.5s;
+}
+
+.btn-neon span:nth-child(2) {
+    right: 0;
+    transform: translateY(-130%);
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, var(--primary-color));
+}
+
+.btn-neon:hover span:nth-child(2) {
+    transform: translateY(100%);
+    transition: 1s 0.25s;
+}
+
+.btn-neon span:nth-child(4) {
+    left: 0;
+    transform: translateY(100%);
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, var(--primary-color));
+}
+
+.btn-neon:hover span:nth-child(4) {
+    transform: translateY(-130%);
+    transition: 1s 0.75s;
+}
+
+#contact-sign {
+    width: 90%;
+    height: 15%;
+    margin-top: 10px;
+}
+
+#info {
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
+
+#info h5 a:hover {
+    color: white;
+}
